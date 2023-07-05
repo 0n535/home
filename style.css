@@ -1,0 +1,46 @@
+/* Font here */
+@font-face {
+    font-family: profont;
+    src: url(./ProFontIIxNerdFont-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #191919;
+    font-family: profont;
+}
+.navbar {
+    background-color: rgb(69, 68, 72);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+.navbar .logo {
+    color: white;
+    margin: 20px;
+    width: 50px;
+    display: inline-block;
+}
+.navbar nav {
+    display: block;
+    text-align: right;
+    margin-right: 20px;
+}
+.navbar nav ul li {
+    margin: 2px;
+    display: inline-block;
+}
+.navbar nav ul li button {
+    font-size: large;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    width: 120px;
+    height: 40px;
+    font-family: profont;
+    border-radius: 10px;
+}

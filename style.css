@@ -14,7 +14,7 @@ body {
 }
 .navbar {
     background-color: rgb(69, 68, 72);
-    border-radius: 20px;
+    border-radius: 8px;
     display: flex;
     align-items: center;
     justify-content: space-between;
